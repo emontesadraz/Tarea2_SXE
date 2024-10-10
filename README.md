@@ -22,5 +22,15 @@ Para verificar que está arrancado utilizamos este comando
 ```
 docker ps -a
 ```
+## 3. Crea un contenedor con el nombre 'dam_alp1'. ¿Cómo puedes acceder a él?
+Para crear un contenedor con nombre
+```
+docker run -it -d --name dam_alp1 alpine
+```
+Para acceder al contendor utilizamos este comando
+```
+docker exec -it dam_alp1 sh
+```
+
 
 
