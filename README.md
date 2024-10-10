@@ -42,6 +42,21 @@ Para ver si podemos hacer ping desde dentro del fichero
 ```
 ping google.com
 ```
+## 5. Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+
+Para crear el contenedor hacemos
+```
+docker run -it -d --name dam_alp2 alpine
+```
+Ahora vemos la ip del contenedor
+```
+docker inspect dam_alp2 | grep "IPAddress"
+```
+Entramos en el archivo dam_alp1 y ponemos la IP del dam_alp2
+```
+docker exec -it dam_alp1 sh
+ping Ip dam_alp2
+```
 
 
 
