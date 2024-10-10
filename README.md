@@ -67,6 +67,11 @@ docker ps -a
 
 Lo que pasa es que siguen ejecutándose después de salir
 
+## 7. ¿Cuanta memoria en el disco duro ocupaste?
+Para ver la memoria que ha utilizado
+```
+docker system df
+```
 
 
 
