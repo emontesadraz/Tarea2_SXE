@@ -72,6 +72,11 @@ Para ver la memoria que ha utilizado
 ```
 docker system df
 ```
+## 8. ¿Cuánta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?
+Consultamos el uso de RAM de los contenedores que están corriendo.
+```
+docker stats
+```
 
 
 
