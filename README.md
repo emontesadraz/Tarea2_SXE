@@ -31,6 +31,18 @@ Para acceder al contendor utilizamos este comando
 ```
 docker exec -it dam_alp1 sh
 ```
+## 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+
+Para ver la ip de nuestro archivo utilizamos este comando
+```
+docker inspect dam_alp1 | grep "IPAddress"
+```
+
+Para ver si podemos hacer ping desde dentro del fichero
+```
+ping google.com
+```
+
 
 
 
