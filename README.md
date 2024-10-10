@@ -57,6 +57,13 @@ Entramos en el archivo dam_alp1 y ponemos la IP del dam_alp2
 docker exec -it dam_alp1 sh
 ping Ip dam_alp2
 ```
+## 6.  Sal del terminal, ¿qué ocurrió con el contenedor?
+
+Salimos de la terminal y vemos el contenedor
+```
+exit
+docker ps -a
+```
 
 
 
