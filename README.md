@@ -13,4 +13,14 @@ Para verificar que se ha descargado
 docker images
 ```
 
+## 2. Crea un contenedor sin ponerle nombre. ¿Está arrancado? Obtén el nombre.
+Creamos un contenedor con la imagen Alpine, pero sin especificar un nombre para él.
+```
+docker run -d alpine
+```
+Para verificar que está arrancado utilizamos este comando
+```
+docker ps -a
+```
+
 
