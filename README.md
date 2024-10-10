@@ -65,6 +65,9 @@ exit
 docker ps -a
 ```
 
+Lo que pasa es que siguen ejecutándose después de salir
+
+
 
 
 
